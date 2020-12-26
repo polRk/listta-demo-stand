@@ -1,0 +1,26 @@
+name: listta_demo_stand
+description: Listta app demo stand
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  brick_offline_first: any
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  brick_offline_first_with_rest_build:
+    git:
+      url: https://github.com/greenbits/brick.git
+      path: packages/brick_offline_first_with_rest_build
+  build_runner: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false
